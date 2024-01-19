@@ -1,7 +1,12 @@
 class Ship {
-  constructor(name, startingPoint) {
+  constructor(name, startingPort) {
     this.name = name;
-    this.startinPoint = startingPoint;
+    this.startinPort = startingPort;
+  }
+
+  setSail() {
+    this.startinPort = null;
+    return `${this.name} is a sea`;
   }
 }
 
