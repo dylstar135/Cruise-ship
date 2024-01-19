@@ -2,10 +2,12 @@
   "name": "cruise-ship",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Ship.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "nodemon src/Ship.js"
   },
+  
   "author": "",
   "license": "ISC",
   "devDependencies": {
